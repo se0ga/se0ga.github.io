@@ -1,0 +1,216 @@
+main{
+    position: relative;
+    margin: 19px auto;
+    width: 955px;
+    display: grid;
+    grid-rows: 100px 300px 300px 300px 300px;
+    grid-columns: 950px;
+    font-family: Arial;
+    hyphens: auto;
+}
+.person_checkbox {
+    display: none;
+}
+#person1:checked ~ main {
+    background-color: #ffe05d;
+}
+#person2:checked ~ main {
+    background-color: #ff8283;
+}
+#person3:checked ~ main {
+    background-color: #72c4f6;
+}
+header {
+    border: 2px solid black;
+    height: 550px;
+    box-sizing: content-box;
+}
+header svg {
+    display: block;
+    margin: -6px auto;
+}
+#ya_img{
+    position: absolute;
+    right: -27px;
+    z-index: 1;
+    top: 40px;
+}
+h1{
+    position: absolute;
+    top: 337px;
+    left: 100px;
+    font: 2.75em Arial;
+    text-align: center;
+    z-index: 1;
+}
+.internet_today{
+    border: 2px solid black;
+    border-top: none;
+    height: 392px;
+    z-index: 1;
+}
+.internet_today article {
+    padding: 75px 0 0 92px;
+    font: 16px Arial;
+    width: 450px;
+    line-height: 24px;
+    hyphens: auto;
+    float: left;
+}
+.internet_today p {
+    margin: 0;
+}
+.internet_today article p:first-child {
+    margin-bottom: 29px;
+}
+.internet_today .video {
+    float: right;
+    padding-top: 79px;
+    padding-right: 125px;
+}
+.internet_today .video p {
+    margin-top: 9px;
+}
+.users label {
+    display: block;
+    margin-left: -77px;
+    width: 312px;
+    height: 312px;
+    text-align: center;
+    position: relative;
+}
+.users {
+    height: 350px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 160px;
+}
+.users label svg {
+    position: absolute;
+    top: -10px;
+    left: 76px;
+    display: none;
+    cursor: pointer;
+}
+.users label img {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.users .name {
+    font-weight: bold;
+}
+.users .info {
+    display: none;
+    line-height: 24px;
+    hyphens: auto;
+    margin: 0;
+    padding: 10px;
+}
+#person1:checked ~ main .maks svg {
+    display: block;
+}
+#person2:checked ~ main .aleks svg {
+    display: block;
+}
+#person3:checked ~ main .georg svg {
+    display: block;
+}
+#person1:checked ~ main .maks .info {
+    display: block;
+}
+#person2:checked ~ main .aleks .info {
+    display: block;
+}
+#person3:checked ~ main .georg .info {
+    display: block;
+}
+.story {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    height: 2455px;
+    position: relative;
+    line-height: 24px;
+}
+.story p {
+    margin: 0;
+    text-align: center;
+}
+.story p:first-child {
+    margin-bottom: 28px;
+}
+.story svg {
+    display: block;
+    margin: 0 auto;
+}
+.story img {
+    position: absolute;
+    top: 80px;
+    left: -20px;
+}
+.story .top_left {
+    position: absolute;
+    top: 83px;
+    left: 95px;
+    width: 280px;
+}
+.story .middle_right {
+    position: absolute;
+    top: 887px;
+    right: 97px;
+    width: 290px;
+}
+.story .bottom_left {
+    position: absolute;
+    top: 1683px;
+    left: 80px;
+    width: 290px;
+}
+.users_bottom {
+    height: 243px;
+}
+footer {
+    height: 435px;
+    border: 2px solid;
+    position: relative;
+}
+footer article {
+    width: 450px;
+    float: left;
+    padding-left: 95px;
+    padding-top: 64px;
+    line-height: 24px;
+    margin: 0;
+}
+footer article p:first-child {
+    margin-bottom: 28px;
+}
+footer .logo {
+    position: absolute;
+    top: 84px;
+    right: 193px;
+}
+footer .social {
+    float: left;
+}
+footer .social a {
+    text-decoration: none;
+    display: block;
+    margin: 5px 9px 0 0;
+    float: left;
+}
+footer .bottom {
+    position: absolute;
+    bottom: 30px;
+    left: 95px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+footer .copyrights {
+    margin-left: 20px;
+}
