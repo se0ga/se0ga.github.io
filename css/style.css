@@ -1,0 +1,197 @@
+@font-face {
+    font-family: OldLondon;
+    src: url('fonts/OldLondon.ttf') format('truetype');
+}
+@font-face {
+    font-family: CinzelRegular;
+    src: url('fonts/Cinzel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: CinzelRegular;
+    src: url('fonts/Cinzel-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: RajdhaniRegular;
+    src: url('fonts/Rajdhani-Regular.ttf') format('truetype');
+}
+
+body {
+    width: 1200px;
+}
+aside {
+    width: 200px;
+    float: left;
+}
+header .left {
+    border: 1px solid black;
+    margin: 25px;
+    vertical-align: middle;
+    padding: 15px;
+    font-size: .8rem;
+}
+header .title {
+    font-family: OldLondon;
+    font-size: 6rem;
+    width: 800px;
+    float: left;
+}
+header .right {
+    text-align: justify;
+    font-size: .8rem;
+}
+.right p {
+    /*text-indent: 20px;*/
+    margin-top: 0em; /* Отступ сверху */
+}
+p.right_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1em; /* Отступ сверху */
+    margin-bottom: 0em; /* Отступ снизу */
+}
+
+.above_header {
+    /*width: 100%;*/
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    clear: both;
+}
+.above_header .small_text {
+    font-size: 0.7em;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.above_header .right {
+    float:right;
+    /*margin-top: 2px;*/
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 10px;
+    box-sizing: content-box;
+    font-size: 0.8rem;
+}
+
+main>div{
+    float: left;
+}
+
+main .left {
+    border-right: 1px solid black;
+    width: 199px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+main>.center {
+    width: 800px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+main .right {
+    border-left: 1px solid black;
+    width: 199px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+main h2.paragraph_header_2 {
+    font-family: RajdhaniRegular;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+}
+
+main h2.paragraph_header_1 {
+    font-family: CinzelRegular;
+    font-size: 1.7rem;
+}
+
+main h4 {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main p.noindent {
+    text-indent: 0;
+}
+
+main p:first-of-type:first-letter{
+    /*color: red;*/
+    font-size: 1rem;
+}
+
+main a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+}
+main .text_center {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+figure.right_align {
+  float: right;
+  margin: 10px 0 1em 1em;
+}
+
+figcaption.author {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.right_align figcaption {
+    font-size: 0.7rem;
+}
+
+hr {
+    width: 30%;
+}
+hr.bold {
+    width: 95%;
+    border-bottom: 5px solid grey;
+}
+
+main article {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+}
+
+main article:first-of-type {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+}
+main article:nth-of-type(2){
+    padding-left: 10px;
+}
+
+.coltext2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.strong{
+    font-weight: bold;
+}
