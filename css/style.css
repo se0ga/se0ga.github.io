@@ -1,30 +1,44 @@
-#main-header img {
-  width: 100%;
-  height: 100%;
+header h1 {
+  font-size: 2.7rem;
+  font-weight: 300;
+  letter-spacing: 0.7rem;
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+}
+h5 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.7rem;
 }
 
-#main-header .port-item {
-  width: 30%;
-  cursor: pointer;
+.bottom-border {
+  border-bottom: 1px solid grey;
 }
 
-#main-header .port-item:hover {
-  cursor: pointer;
-  opacity: 0.8;
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-.bg-black {
-  color: #fff;
-  background: #000;
+.skillset span {
+  display: inline-block;
+  border: 1px solid grey;
+  margin: 5px 5px 0px 0px;
+  padding: 5px;
+  border-radius: 0.25rem;
 }
 
-.my-photo {
-  background-image: url('../img/person1.jpg');
-  background-size: cover;
+#projects h4,
+#skills h4 {
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
-
-@media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important;
-  }
+hr {
+  width: 75%;
 }
